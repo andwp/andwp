@@ -1,0 +1,8 @@
+---
+layout: post
+title: "换上了模板"
+description: ""
+category:
+tags: []
+---
+{% include JB/setup %}
