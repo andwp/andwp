@@ -1,24 +1,6 @@
-　<!DOCTYPE html>
-
-　　<html>
-
-  　　<head>
-
-    　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-
-    　　　　<title>{{ page.title }}</title>
-
-    　　</head>
-
-  　　<body>
-
-    　　　　{{ content }}
-
-    　</body>
-    <footer>
-      <p class="smallpra">
-&copy; andwp 2013
-&nbsp;| &nbsp;	with help from<a href="https://github.com/mojombo/jekyll"> Jekyll</a> &<a href="https://github.com"> GitHub</a>
-    </footer>
-    
-    　</html>
+---
+theme :
+  name : hooligan
+---
+{% include JB/setup %}
+{% include themes/hooligan/default.html %}
