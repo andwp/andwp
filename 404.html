@@ -1,1 +1,14 @@
-Sorry this page does not exist =(
+---
+layout: page
+title: Pages
+header: Pages
+group: navigation
+---
+{% include JB/setup %}
+
+<h2>All Pages</h2>
+<ul>
+{% assign pages_list = site.pages %}
+{% include JB/pages_list %}
+</ul>
+-_-|| 你要找的内容也许在火星吧！
