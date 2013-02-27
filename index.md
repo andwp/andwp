@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: andwp的私人blog
+tagline: Enjoy your time
 ---
 {% include JB/setup %}
 <ul class="posts">

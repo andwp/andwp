@@ -1,0 +1,13 @@
+---
+layout: default
+tagline: one man can do, another can do!!
+title:  
+---
+<h2>{{ page.title }}</h2>
+
+<ul>
+　　{% for post in site.posts %}
+　　　<li>{{ post.date | date_to_string }} <a href="{{ post.url }}">{{ post.title }}</a></li>
+　　{% endfor %}
+</ul>
+ 
