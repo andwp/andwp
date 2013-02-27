@@ -10,14 +10,15 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : andwp's cook
+tagline: one man can do, another can do!
+title : Jekyll Bootstrap
 tagline: Site Tagline
 author :
   name : andwp
   email : pcodezui@gmail.com
   github : andwp
-  twitter :
-  feedburner : 
-  weibo : pcde
+  weibo : pcde 
+
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
@@ -26,7 +27,7 @@ author :
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://andwp.github.com
+production_url : http://www.andwp.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
