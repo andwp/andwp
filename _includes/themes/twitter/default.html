@@ -49,17 +49,22 @@
     <div class="container-narrow">
 
       <div class="content">
-        {{ content }}  
+        {{ content }}
       </div>
       <hr>
       <footer>
-         <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+	<div>
+	 <a  href="http://github.com/{{ site.author.github }}" target="_blank" ><img src="{{ ASSET_PATH}}/images/github.jpg" style="height:40px;width:40px" /></a>
+	 <a href="http://weibo.com/{{ site.author.weibo }}" target="_blank" ><img src="{{ ASSET_PATH }}/images/sinaminiblog.gif"  style="height:40px;width:40px" /></a>
+	</div>
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
           with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          |<a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
-	  |<a href="http://www.github.com/" target="_blank">Github</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
         </p>
       </footer>
+
     </div>
 
-   </body>
+    {% include JB/analytics %}
+  </body>
 </html>
