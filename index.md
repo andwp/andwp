@@ -1,7 +1,7 @@
 ---
 layout: page
-title: andwp的私人blog
-tagline: Enjoy your time
+title: andwp_blog
+tagline: Enjoy_Your_Time
 ---
 {% include JB/setup %}
 <ul class="posts">
