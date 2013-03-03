@@ -1,0 +1,15 @@
+---
+layout: post
+title: "wp的数据基本迁移"
+description: ""
+category: jekyll
+tags: [数据迁移, wordpress, github, jekyll]
+---
+{% include JB/setup %}
+用了一天的时间，数据基本上搞定了。当然，不是完美迁移，还有些小小的bug需要调整。  
+不过周末已经完了，明天又要上班。。。  
+迁移用了phpmyadmin、 mysql语句、java code、bash、jekyll以及git和现在敲字用的编辑器--emacs。代码已经上传到这里: <https://github.com/andwp/transfer_wordpress_data>  
+有兴趣的可以看看吧！ 当然，更欢迎各位能加入这个项目，方便以后打算迁移blog的朋友。   
+>ps: 今天下午会了一位很久不见的朋友，一起去看了《悲惨世界》，没有看过原著，单是歌剧似的电影就让人很震撼了。  有时间一定把原著读一读！
+> 时间不早了,git push完毕就睡了。
+>good night!
