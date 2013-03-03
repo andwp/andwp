@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: 原blog的内容会陆续迁入
 ---
-<h2>{{ page.title }}</h2>
+{% include JB/setup %}
 <p>正在研究怎么把以前数据库的内容全部迁入到这里。。。</p>
-<p>{{ page.date | date_to_string }}</p>
+
