@@ -1,0 +1,8 @@
+---
+layout: post
+title: "雅安加油！"
+description: ""
+category: 
+tags: []
+---
+{% include JB/setup %}
