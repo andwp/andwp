@@ -1,8 +1,0 @@
----
-layout: post
-title: "awk"
-description: ""
-category: 
-tags: []
----
-{% include JB/setup %}
