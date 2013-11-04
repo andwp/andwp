@@ -1,9 +1,0 @@
----
-layout: default
-title: Blog搬家了
----
-<h2>{{ page.title }}</h2>
-<p>从worldpress搬到了gitcafe
-, 用git+jeklly写blog真有种很爽的感觉，o(∩∩)o...哈哈</p>
-<p>Enjoy time!</p>
-<p>{{ page.date | date_to_string }}</p>
