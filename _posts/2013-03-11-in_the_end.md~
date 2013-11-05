@@ -1,8 +1,0 @@
----
-layout: post
-title: "in_the_end"
-description: ""
-category: 
-tags: []
----
-{% include JB/setup %}
