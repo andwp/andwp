@@ -1,9 +1,0 @@
----
-layout: post
-title: "Rebase"
-description: ""
-category:  
-tags: [杂]
----
-{% include JB/setup %}
- 不知不觉，这里已经荒废了半年。由于上次提交的时候出了点小问题，博客一直处于很混乱的状态。今天过来花时间打理好，没事写点东西。养成好习惯。
